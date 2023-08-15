@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@bold&family=Quicksand:wght@bold&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/thermometer.png" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="box">
+        <div class="title">
+          <h2>Temperature Converter</h2>
+          <img src="./images/temperature.png" />
+        </div>
+        <hr />
+        <input
+          type="number"
+          class="inputbox"
+          placeholder="Enter Temperature..."
+        />
+        <div class="btn">
+          <button type="button" class="celsius">Celsius (F to °C)</button>
+          <button type="button" class="fahrenheit">Fahrenheit(°C to F)</button>
+        </div>
+      </div>
+
+      <div class="converters"></div>
+    </div>
+  </body>
+  <script src="./style.js" defer></script>
+</html>
